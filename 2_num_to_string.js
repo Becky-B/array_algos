@@ -4,3 +4,13 @@
 // When you have solved this, create new values for your array and ensure it still works as expected.
 
 // YOUR CODE HERE
+var arr=[10,3,6,9,4,13]
+for(var i = 0; i < arr.length; i++){
+    if (arr[i]<6){
+        arr[i]= "small"
+    }
+    else if(arr[i]>9){
+        arr[i]="big"
+    }
+}
+    console.log(arr)
